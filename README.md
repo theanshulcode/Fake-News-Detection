@@ -76,3 +76,8 @@ You will see that newly created dataset has only 2 classes as compared to 6 from
 * Pants-fire	-- 	False
 
 The dataset used for this project were in csv format named train.csv, test.csv and valid.csv and can be found in repo. The original datasets are in "liar" folder in tsv format.
+
+### File descriptions
+
+#### DataPrep.py
+This file contains all the pre processing functions needed to process all input documents and texts. First we read the train, test and validation data files then performed some pre processing like tokenizing, stemming etc. There are some exploratory data analysis is performed like response variable distribution and data quality checks like null or missing values etc.
